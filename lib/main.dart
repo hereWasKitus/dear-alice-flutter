@@ -14,11 +14,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: title,
-      theme: ThemeData(
-        // primarySwatch: MaterialColor(14, <Map>{21: Colors.blue}),
-        primaryColor: Colors.blue
-      ),
+      theme: ThemeData(primaryColor: Colors.white, fontFamily: 'Gloria'),
       home: Home(),
+      debugShowCheckedModeBanner: false
     );
   }
 }
